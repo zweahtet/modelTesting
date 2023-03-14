@@ -1,6 +1,5 @@
 from transformers import AutoModelForSequenceClassification, Trainer, TrainingArguments, AutoTokenizer
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
-from datasets import load_from_disk
 import random
 import logging
 import sys
